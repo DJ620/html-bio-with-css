@@ -4,7 +4,7 @@ body {
     color: #333333;
     margin: 0;
     padding: 0;
-    line-height: 1.5em;
+    line-height: 150%;
 }
 
 header {
@@ -23,8 +23,11 @@ h1 {
 h2 {
     font-size: 24px;
     width: 1024px;
+}
+
+.container {
+    width: 1024px;
     margin: 0 auto;
-    margin-left: 20px;
 }
 
 #main-bio, #contact-info, #bio-image {
@@ -34,7 +37,6 @@ h2 {
 #bio-image {
     width: 200px;
     margin-right: 35px;
-    margin-left: 20px;
     margin-top: 15px;
 }
 
